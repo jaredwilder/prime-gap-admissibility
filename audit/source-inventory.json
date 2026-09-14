@@ -1,0 +1,519 @@
+{
+  "date": "2026-09-14",
+  "method": "Lexical named theorem/lemma declarations, comments and strings removed; not a kernel or novelty count. Includes private lemmas and specializations.",
+  "modules": 12,
+  "named_theorem_lemma_declarations": 104,
+  "files": [
+    {
+      "file": "EG203Formal/PrimeGapAdmissibilityMathlib.lean",
+      "sha256": "ab55654e5fc6ecac761d3b5d8928717fdaf5008fa1da6959eec59a8804c024bc",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "k3_p2_admissible_count"
+        },
+        {
+          "kind": "theorem",
+          "name": "k3_p3_admissible_count"
+        },
+        {
+          "kind": "theorem",
+          "name": "k3_p5_admissible_count_all"
+        },
+        {
+          "kind": "theorem",
+          "name": "k4_p2_admissible_count"
+        },
+        {
+          "kind": "theorem",
+          "name": "k4_p3_admissible_count"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissible_auto_when_p_gt_k"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapAdmissibleClosedForm.lean",
+      "sha256": "93e3e716a483ed7266b926f49932183ef5e99f28fc3862f4e77d5921e5e0a03d",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_closed_form"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_p3_k3_closed"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_p5_k5_closed"
+        },
+        {
+          "kind": "theorem",
+          "name": "sumTuple_HL_admissible_iff_counted"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapClosedForm.lean",
+      "sha256": "5717ad3a695a8956ef9fe897abb3b38e6fa71d7fa30a2c6ee17e281a3fcd9f6b",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "closedForm_k3_p2"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k3_p3"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k3_p5"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k4_p2"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k4_p3"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k5_p3"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k5_p5"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k6_p3"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k7_p5"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k7_p7"
+        },
+        {
+          "kind": "theorem",
+          "name": "closedForm_k11_p11"
+        },
+        {
+          "kind": "theorem",
+          "name": "kEqualP_p2"
+        },
+        {
+          "kind": "theorem",
+          "name": "kEqualP_p3"
+        },
+        {
+          "kind": "theorem",
+          "name": "kEqualP_p5"
+        },
+        {
+          "kind": "theorem",
+          "name": "kEqualP_p7"
+        },
+        {
+          "kind": "theorem",
+          "name": "kEqualP_p11"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCountClosedForm_11_11_eq_perm_card"
+        },
+        {
+          "kind": "theorem",
+          "name": "autoCase_k3_p5"
+        },
+        {
+          "kind": "theorem",
+          "name": "autoCase_k3_p7"
+        },
+        {
+          "kind": "theorem",
+          "name": "autoCase_k4_p5"
+        },
+        {
+          "kind": "theorem",
+          "name": "autoCase_k5_p7"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapHLBridge.lean",
+      "sha256": "2383c29c7299d2506efdfa2b3138c1e65482c57f1d0b72f53121b2e8b0cf8ef5",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "count_hlAdmissible_eq_admissibleCount"
+        },
+        {
+          "kind": "theorem",
+          "name": "hlAdmissibleCount_eq_closed_form"
+        },
+        {
+          "kind": "theorem",
+          "name": "hl_count_p3_k3"
+        },
+        {
+          "kind": "theorem",
+          "name": "hl_count_p5_k5"
+        },
+        {
+          "kind": "theorem",
+          "name": "hl_count_p7_k4"
+        },
+        {
+          "kind": "theorem",
+          "name": "hl_count_p2_k3"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapIEChain.lean",
+      "sha256": "5271cd33209d906a533dea09658dea094fe45f2ce0f0ae1c5e2b352b4e145833",
+      "declarations": [
+        {
+          "kind": "lemma",
+          "name": "mem_finset_inf"
+        },
+        {
+          "kind": "lemma",
+          "name": "coversAll_iff_forall_nonzero"
+        },
+        {
+          "kind": "lemma",
+          "name": "coversAll_iff_mem_inf_compl"
+        },
+        {
+          "kind": "lemma",
+          "name": "coversCount_eq_card_inf_compl"
+        },
+        {
+          "kind": "theorem",
+          "name": "chain_value_p3_k3"
+        },
+        {
+          "kind": "theorem",
+          "name": "chain_value_p5_k5"
+        },
+        {
+          "kind": "lemma",
+          "name": "inf_missing_eq_filter_components_in_compl"
+        },
+        {
+          "kind": "theorem",
+          "name": "card_inf_missing_eq_pow"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_eq_IE_alternating_sum"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_closed_form_Nat"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapInclusionExclusion.lean",
+      "sha256": "b60da079d04cdc47ee9f64de764af8a37232be7aca6c0aeff9b22fb998e284c5",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "admissible_plus_covers_eq_total"
+        },
+        {
+          "kind": "theorem",
+          "name": "card_sumTuple_in_subset"
+        },
+        {
+          "kind": "theorem",
+          "name": "complement_p3_k3"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_p3_k3"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_p3_k3"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_p5_k5"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_p5_k5"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapMod2Exact.lean",
+      "sha256": "94ee011015654bc7b75a11fb65daa36590471c9d72cc2ea1c98e0703f83746ce",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_2"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_3"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_4"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_5"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_6"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_7"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_8"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_pattern"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_4_via_closed_form"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_pattern_witnesses_match_R41_closed_form"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapMod2General.lean",
+      "sha256": "b175120cd5b5663a69b746b315f440d4ebb5411ce2ba3d6cb30417af720f3416",
+      "declarations": [
+        {
+          "kind": "lemma",
+          "name": "zmod2_cases"
+        },
+        {
+          "kind": "lemma",
+          "name": "not_covers_mod2_iff_const_zero"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_mod2_eq_one"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_2_general"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_3_general"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_4_general"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_100_general"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_2_1000_general"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_mod2_via_R41"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapMod3General.lean",
+      "sha256": "36817b838d97af1bcb44e3ae05b130a6247fa2974d3bfebc196903c40e9c2f9b",
+      "declarations": [
+        {
+          "kind": "lemma",
+          "name": "zmod3_cases"
+        },
+        {
+          "kind": "lemma",
+          "name": "not_covers_mod3_iff"
+        },
+        {
+          "kind": "lemma",
+          "name": "card_avoid_one"
+        },
+        {
+          "kind": "lemma",
+          "name": "card_avoid_two"
+        },
+        {
+          "kind": "lemma",
+          "name": "card_avoid_both"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_mod3_eq"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_3_check"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_4_check"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_5_check"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_10_check"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapPermBoundary.lean",
+      "sha256": "f7bf4dabd1bb29bc1dd5015b5c180b18e1147c36ce2b5cc52dbc4221b6a19ce9",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "perm_card_fin_2"
+        },
+        {
+          "kind": "theorem",
+          "name": "perm_card_fin_4"
+        },
+        {
+          "kind": "theorem",
+          "name": "perm_card_fin_6"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_3_3_eq_perm_card"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_5_5_eq_perm_card"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_7_7_eq_perm_card"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_3_via_perm"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_5_5_via_perm"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_7_7_via_perm"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal/PrimeGapSurjectionBoundary.lean",
+      "sha256": "dce8c4ebfa23cb1495de932508aa36a3ada6739d02005c0b134a2c8f8625119e",
+      "declarations": [
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_3_surjection_form"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_5_5_surjection_form"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_7_7_surjection_form"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_3_3_explicit"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_5_5_explicit"
+        },
+        {
+          "kind": "theorem",
+          "name": "admissibleCount_7_7_explicit"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_3_3_factorial"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_5_5_factorial"
+        },
+        {
+          "kind": "theorem",
+          "name": "coversCount_7_7_factorial"
+        },
+        {
+          "kind": "theorem",
+          "name": "complement_at_k_eq_p_3"
+        },
+        {
+          "kind": "theorem",
+          "name": "complement_at_k_eq_p_5"
+        },
+        {
+          "kind": "theorem",
+          "name": "complement_at_k_eq_p_7"
+        }
+      ],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    },
+    {
+      "file": "EG203Formal.lean",
+      "sha256": "3fced2bd6e0f71683623694ab7f40fb365fe03bb6a0fdd58ba29e9c6014bc8b6",
+      "declarations": [],
+      "sorry_or_admit_tokens": 0,
+      "axiom_declarations": 0
+    }
+  ]
+}

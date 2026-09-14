@@ -1,0 +1,86 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "a7b4971c9edcb379424c427cb8ffd4b958ae212e7bf71b75857f9d670c1eb84c"
+  },
+  {
+    "file": "archive/README.md",
+    "sha256": "5b265f38b58a4dd510eb9dc05b45e265ece5a903819c24aca0839b5753da6d7a"
+  },
+  {
+    "file": "audit/compiler-attempt.json",
+    "sha256": "2388f875fd058a80255e1ee4a9e2bb3e7687a290743b0fe97f68cb51e87d700e"
+  },
+  {
+    "file": "audit/source-inventory.json",
+    "sha256": "cd286d53a12f2ae7e69ce081cb45e706b600e63564e88260fd0c9d9ce540dca3"
+  },
+  {
+    "file": "AUDIT.md",
+    "sha256": "6fb774ae39b38815ac33647b1558c2a23ea553a764349dc3156266cde735d132"
+  },
+  {
+    "file": "EG203Formal/PrimeGapAdmissibilityMathlib.lean",
+    "sha256": "ab55654e5fc6ecac761d3b5d8928717fdaf5008fa1da6959eec59a8804c024bc"
+  },
+  {
+    "file": "EG203Formal/PrimeGapAdmissibleClosedForm.lean",
+    "sha256": "93e3e716a483ed7266b926f49932183ef5e99f28fc3862f4e77d5921e5e0a03d"
+  },
+  {
+    "file": "EG203Formal/PrimeGapClosedForm.lean",
+    "sha256": "5717ad3a695a8956ef9fe897abb3b38e6fa71d7fa30a2c6ee17e281a3fcd9f6b"
+  },
+  {
+    "file": "EG203Formal/PrimeGapHLBridge.lean",
+    "sha256": "2383c29c7299d2506efdfa2b3138c1e65482c57f1d0b72f53121b2e8b0cf8ef5"
+  },
+  {
+    "file": "EG203Formal/PrimeGapIEChain.lean",
+    "sha256": "5271cd33209d906a533dea09658dea094fe45f2ce0f0ae1c5e2b352b4e145833"
+  },
+  {
+    "file": "EG203Formal/PrimeGapInclusionExclusion.lean",
+    "sha256": "b60da079d04cdc47ee9f64de764af8a37232be7aca6c0aeff9b22fb998e284c5"
+  },
+  {
+    "file": "EG203Formal/PrimeGapMod2Exact.lean",
+    "sha256": "94ee011015654bc7b75a11fb65daa36590471c9d72cc2ea1c98e0703f83746ce"
+  },
+  {
+    "file": "EG203Formal/PrimeGapMod2General.lean",
+    "sha256": "b175120cd5b5663a69b746b315f440d4ebb5411ce2ba3d6cb30417af720f3416"
+  },
+  {
+    "file": "EG203Formal/PrimeGapMod3General.lean",
+    "sha256": "36817b838d97af1bcb44e3ae05b130a6247fa2974d3bfebc196903c40e9c2f9b"
+  },
+  {
+    "file": "EG203Formal/PrimeGapPermBoundary.lean",
+    "sha256": "f7bf4dabd1bb29bc1dd5015b5c180b18e1147c36ce2b5cc52dbc4221b6a19ce9"
+  },
+  {
+    "file": "EG203Formal/PrimeGapSurjectionBoundary.lean",
+    "sha256": "dce8c4ebfa23cb1495de932508aa36a3ada6739d02005c0b134a2c8f8625119e"
+  },
+  {
+    "file": "EG203Formal.lean",
+    "sha256": "3fced2bd6e0f71683623694ab7f40fb365fe03bb6a0fdd58ba29e9c6014bc8b6"
+  },
+  {
+    "file": "lakefile.toml",
+    "sha256": "06f4b51961d1dcf4875ff0af8889bc5578f41c8b2eb3acd8d25a08357d037a23"
+  },
+  {
+    "file": "lean-toolchain",
+    "sha256": "b15a57f8ea4c890197465ce1156667ae13d9ed4ab8a9f263a920bf010d967d82"
+  },
+  {
+    "file": "PROVENANCE.md",
+    "sha256": "6776d36dc8216884fc70f80482ab9290e5f0fc846b84985ca96e45f66bcecb11"
+  },
+  {
+    "file": "README.md",
+    "sha256": "799a9f5e672d431ecdff8956c501c28e2d73bf4b9adaf6f8103e974134fe73e2"
+  }
+]

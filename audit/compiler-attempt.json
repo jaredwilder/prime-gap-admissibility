@@ -1,0 +1,9 @@
+{
+  "command": [
+    "lean",
+    "EG203Formal/PrimeGapInclusionExclusion.lean"
+  ],
+  "returncode": 1,
+  "stdout": "EG203Formal/PrimeGapInclusionExclusion.lean:24:0: error: unknown module prefix 'Mathlib'\n\nNo directory 'Mathlib' or file 'Mathlib.olean' in the search path entries:\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+  "stderr": ""
+}

@@ -1,0 +1,11 @@
+name = "prime-gap-admissibility"
+version = "0.1.0"
+defaultTargets = ["EG203Formal"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.29.1"
+
+[[lean_lib]]
+name = "EG203Formal"
