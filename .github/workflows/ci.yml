@@ -12,7 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@v1
+      - name: Install pinned Lean toolchain
+        uses: leanprover/lean-action@v1
         with:
-          build: true
-          use-mathlib-cache: auto
+          auto-config: false
+          build: false
+          test: false
+          lint: false
+      - name: Resolve pinned dependencies
+        run: lake update
+      - name: Fetch Mathlib cache
+        run: lake exe cache get
+      - name: Build recovered formalization
+        run: lake build
